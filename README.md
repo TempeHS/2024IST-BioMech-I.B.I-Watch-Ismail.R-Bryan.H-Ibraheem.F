@@ -1,4 +1,6 @@
 # I.B.I Watch
+![Pictorial](.workingDocuments/Pictorial.jpg). 
+
 # What we intend to create
 We will be designing a wrist sensor watch which will monitor Vivian's pulse rate whenever she is doing sports. The watch that I will design will, beep if her heart rate is at an abnormal level. The watch will also vibrate whenever she has been training for too long and will tell her to take a little break. If this break is not taken, it could potentially be life-threatening. This will help her be prepared for any further cautions that could be caused by her condition.  
 
