@@ -20,7 +20,7 @@ void loop()
     long soundRead = 0;
     for(int i=0; i<32; i++)
     {
-        sum += analogRead(soundRead);
+      sum += analogRead(soundRead);
     }
 
     // >>= is a bitwise shift right, the bits literally shift 5 places to the right 2^5 which is mathematically the same as diving by 32 but computationally much quicker.
