@@ -18,7 +18,11 @@ void loop() {
 
   // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
   if (buttonState == HIGH) {
+<<<<<<< HEAD
      turn LED on:
+=======
+    turn LED on:
+>>>>>>> 30ca75089c1fff2fe2086a4f977929dc9c92b1dd
     digitalWrite(buzzer, LOW);
   } else {
     turn LED off:
