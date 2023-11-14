@@ -17,19 +17,19 @@ void setup()
 
 void loop()
 {
-<<<<<<< HEAD
+
+  int Sum = 0;
   long soundRead = 0;
   for (int i = 0; i < 32; i++)
   {
-   sum+= analogRead(soundRead);
+   Sum += analogRead(soundRead);
   }
-=======
     long soundRead = 0;
     for(int i=0; i<32; i++)
     {
-        sum += analogRead(soundRead);
+        Sum += analogRead(soundRead);
     }
->>>>>>> 74777d3cd8f0799c1c54dabed510122ca0adbda2
+
 
     // >>= is a bitwise shift right, the bits literally shift 5 places to the right 2^5 which is mathematically the same as diving by 32 but computationally much quicker.
     // You could also write soundRead /= 32; which is easier to read but slower to compute
