@@ -24,7 +24,8 @@ void loop()
   {
    Sum += analogRead(soundRead);
   }
-    long soundRead = 0;
+5
+;int long soundRead = 0;
     for(int i=0; i<32; i++)
     {
         Sum += analogRead(soundRead);
