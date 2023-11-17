@@ -13,6 +13,7 @@ const int soundSensor = A0;
 void setup()
 {
     Serial.begin(9600);
+    Serial.println("working");
 }
 
 void loop()
