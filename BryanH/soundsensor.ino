@@ -24,8 +24,14 @@ void loop()
   {
    Sum += analogRead(soundRead);
   }
+<<<<<<< Updated upstream
 
     for(int i=0; i<32; i++)
+=======
+5
+int long soundRead = 0;
+    for(int i=0;   i<32; i++)
+>>>>>>> Stashed changes
     {
         Sum += analogRead(soundRead);
     }
