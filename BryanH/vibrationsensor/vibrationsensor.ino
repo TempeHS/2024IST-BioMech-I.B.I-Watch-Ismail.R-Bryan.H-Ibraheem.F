@@ -6,6 +6,9 @@ const int buzzer =  3;      // the number of the buzzer pin
 int buttonState = 0;         // variable for reading the pushbutton status
 
 void setup() {
+  Serial.begin(9600);
+  Serial.println("Vibration Sensor:");
+
   // initialize the LED pin as an output:
   pinMode(buzzer, OUTPUT);
   // initialize the pushbutton pin as an input:
