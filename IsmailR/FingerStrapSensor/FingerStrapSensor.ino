@@ -18,7 +18,7 @@ void loop() {
 #define SDA_PIN 3
 #define SCL_PORT PORTD
 #define SCL_PIN 2
-#include <SoftI2CMaster.h>
+`#include <SoftI2CMaster.h>
 #include <SoftWire.h>
 SoftWire Wire = SoftWire();
 
